@@ -15,6 +15,7 @@ namespace ConditionalStructure
                 Console.WriteLine("1 - Task 1: write if a number is negative");
                 Console.WriteLine("2 - Task 2: write if a number is even or odd");
                 Console.WriteLine("3 - Task 3: write if two numbers are multiples");
+                Console.WriteLine("4 - Task 4: write duration of the game");
                 Console.WriteLine("----------------------------------");
                 Console.WriteLine("Select an option: ");
                 
@@ -33,6 +34,10 @@ namespace ConditionalStructure
                     case "3":
                         var exercise3 = new Exerc3();
                         exercise3.setMutiples();
+                        break;
+                    case "4":
+                        var exercise4 = new Exerc4();
+                        exercise4.gameHour();
                         break;
                     
                     case "0":
