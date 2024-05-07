@@ -14,7 +14,7 @@ namespace ConditionalStructure
                 Console.WriteLine("----------------------------------");
                 Console.WriteLine("1 - Task 1: write if a number is negative");
                 Console.WriteLine("2 - Task 2: write if a number is even or odd");
-                
+                Console.WriteLine("3 - Task 3: write if two numbers are multiples");
                 Console.WriteLine("----------------------------------");
                 Console.WriteLine("Select an option: ");
                 
@@ -27,11 +27,12 @@ namespace ConditionalStructure
                         exercise1.readNumber();
                         break;
                     case "2":
-                        var excerise2 = new Exerc2();
-                        excerise2.evenOddNumber();
+                        var exercise2 = new Exerc2();
+                        exercise2.evenOddNumber();
                         break;
                     case "3":
-                        
+                        var exercise3 = new Exerc3();
+                        exercise3.setMutiples();
                         break;
                     
                     case "0":
