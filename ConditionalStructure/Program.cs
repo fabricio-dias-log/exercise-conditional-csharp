@@ -17,11 +17,13 @@ namespace ConditionalStructure
                 Console.WriteLine("3 - Task 3: write if two numbers are multiples");
                 Console.WriteLine("4 - Task 4: write duration of the game");
                 Console.WriteLine("5 - Task 5: write the total of items cost");
+                Console.WriteLine("6 - Task 6: write the interval of a number");
                 Console.WriteLine("----------------------------------");
                 Console.WriteLine("Select an option: ");
                 
                 option = Console.ReadLine();
                 Console.Clear();
+                
                 switch (option)
                 {
                     case "1":
@@ -43,6 +45,10 @@ namespace ConditionalStructure
                     case "5":
                         var exercise5 = new Exerc5();
                         exercise5.getBillToPay();
+                        break;
+                    case "6":
+                        var exercise6 = new Exerc6();
+                        exercise6.getInterval();
                         break;
                     
                     case "0":
