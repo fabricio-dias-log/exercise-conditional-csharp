@@ -19,6 +19,7 @@ namespace ConditionalStructure
                 Console.WriteLine("5 - Task 5: write the total of items cost");
                 Console.WriteLine("6 - Task 6: write the interval of a number");
                 Console.WriteLine("7 - Task 7: write numbers to get quadrant");
+                Console.WriteLine("8 - Task 8: write salary to get tax");
                 Console.WriteLine("----------------------------------");
                 Console.WriteLine("Select an option: ");
                 
@@ -54,6 +55,10 @@ namespace ConditionalStructure
                     case "7":
                         var exercise7 = new Exerc7();
                         exercise7.getQuadrant();
+                        break;
+                    case "8":
+                        var exercise8 = new Exerc8();
+                        exercise8.getTaxes();
                         break;
                     
                     case "0":
